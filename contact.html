@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Momentum - Contact</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Contact Us</h1>
+  </header>
+
+  <main>
+    <form id="contactForm" novalidate>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <div id="formResponse" role="alert" aria-live="polite"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Momentum</p>
+    <p><a href="references.html">References</a></p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
