@@ -1,83 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>WDD 131: Malvin Kwashira</title>
-  <link rel="stylesheet" href="style.css" />
-  
-    <style>
-    .intro {
-      width: 400px;
-    }
-
-    p.custom-width {
-      width: 300px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Malvin Kwashira Clothing - Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-
-</header>
-
-    <h1>WDD 131: Dynamic Web Fundamentals - <span class="highlight">Malvin Kwashira</span></h1>
+  <header>
     <nav>
-<a href="#">LinkedIn</a>
-<a href="#">Canvas</a>
-<a href="#">Scripture</a>
- <a href="#">Final Project</a>
-  </nav>
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1><span class="brand-name">Malvin Kwashira Clothing</span></h1>
+    <p>High-performance gear for modern athletes.</p>
+    <a href="index.html#shop" class="button">Shop Now</a>
   </header>
 
-  <main class="content">
-  <section class="about">
-  <h2>About Me</h2>
-  <div class="about-container">
-  <div class="about-text">
-
- <div class="intro">
-    My name is Malvin Kwashira. I was born in Zimbabwe, but I live in Johannesburg.
-    I stay with family, and I normally spend my time with family and friends.
-    I love reading the Word of God because it guides me in my life.
-  </div>
-
-
-  <h3>Harare,Zimabwe</h3>
-  <div class="location">
-  <img src="Zimflag.webp" alt="Zimbabwe Flag" />
-  <div>
-  <p class="custom-width">Zimbabwe is a country with 15million pople. And its located in Southern Africa
-    It is a land locked country with tourist attraction because of its nature
-    .</p>
-  <em>Official Flag of Zimbabwe</em>
-  </div>
-  </div>
-  </div>
-  <img class="portrait" src="JPEG image (.jpg)" alt="" />
-  </div>
-  </section>
-
-  <section class="resources">
-  <h2>Web Dev Resources</h2>
-     <ul>
-   <li><a href="#">Dev.to Community</a></li>
-   <li><a href="#">Smashing Magazine</a></li>
- <li><a href="#">Image Placeholder</a></li>
- <li><a href="#">W3 Schools</a></li>
-        <li><a href="#">Udemy</a></li>
-  </ul>
-  </section>
+  <main>
+    <section id="shop" class="category-section">
+      <h2>Explore Categories</h2>
+      <div class="categories">
+        <div class="category">
+          <img src="images/jean.webp" alt="Men's Apparel" loading="lazy" />
+          <h3>Men's Apparel</h3>
+          <a href="about.html#mens" class="button">Shop Men's</a>
+        </div>
+        <div class="category">
+          <img src="images/jeanw.webp" alt="Women's Apparel" loading="lazy" />
+          <h3>Women's Apparel</h3>
+          <a href="about.html#womens" class="button">Shop Women's</a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>&copy;2025  🌸Malvin Kwashira Zimbabwe🌸</p>
-    <p><span class="last-modified">Last Modification: 07/12/2025 17:13:33</span></p>
+    <p>&copy; 2025 <span class="brand-name">Malvin Kwashira Clothing</span></p>
+    <p><a href="references.html">References</a></p>
   </footer>
 
-
- <img src="FB_IMG_1738959090907.jpg" style="width: 300px;">
-
- 
+  <script src="js/scripts.js"></script>
 </body>
 </html>

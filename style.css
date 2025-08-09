@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #310a41;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  background-color: #dfd3d3;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-form label,
+.review-form legend {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.review-form select,
+.review-form input[type="date"],
+.review-form input[type="text"],
+.review-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+}
+
+.stars label {
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+}
+
+fieldset {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+.optional {
+  font-size: 0.9em;
+  color: #3369cc;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #eee;
+  border: none;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+footer {
+  background-color: #0a410a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
