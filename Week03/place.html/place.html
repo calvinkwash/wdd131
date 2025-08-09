@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>South Africa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lato', sans-serif;
+      background: url('background.jpg') no-repeat center center/cover;
+      color: #ffffff;
+    }
+
+    header, footer {
+      background-color: #10c8b9;
+      padding: 1rem;
+      text-align: center;
+      color: white;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.336);
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .info-box {
+      background-color: rgba(255, 255, 255, 0.85);
+      color: #333;
+      padding: 1.5rem;
+      border-radius: 10px;
+      max-width: 300px;
+      margin: 1rem;
+    }
+
+    .info-section {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .info-title {
+      background-color: #216800;
+      color: white;
+      padding: 0.5rem 1rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      border-radius: 5px 5px 0 0;
+    }
+
+    footer small {
+      display: block;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>South Africa</h1>
+    </header>
+
+    <main class="info-section">
+      <div class="info-box">
+        <div class="info-title">Data</div>
+        <p><strong>Area:</strong> 1,221,037 sq km</p>
+        <p><strong>Population:</strong> 60,143,000</p>
+        <p><strong>Capital:</strong> Pretoria (administrative)</p>
+        <p><strong>Languages:</strong> Zulu, Xhosa, Afrikaans, English, and others</p>
+        <p><strong>Currency:</strong> South African Rand (ZAR)</p>
+        <p><strong>Time Zone:</strong> UTC+2</p>
+        <p><strong>Calling Code:</strong> +27</p>
+        <p><strong>Internet TLD:</strong> .za</p>
+      </div>
+
+      <div class="info-box">
+        <div class="info-title">Weather ☁</div>
+        <p><strong>Temperature:</strong> 15°C</p>
+        <p><strong>Conditions:</strong> Sunny</p>
+        <p><strong>Wind:</strong> 10 km/h</p>
+        <p><strong>Wind Chill:</strong> 14°C</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>©2025 🌸 Malvin Kwashira🌸 South Africa</p>
+      <small>Last Modification: <span id="lastModified"></span></small>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("lastModified").textContent = document.lastModified;
+  </script>
+</body>
+</html>
