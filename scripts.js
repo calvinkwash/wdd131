@@ -1,4 +1,4 @@
-// Greeting button on homepage
+
 function showMessage() {
   document.getElementById('message').textContent = "Welcome to Blue Sky Clothing!";
 }
@@ -37,7 +37,6 @@ if (document.getElementById('product-list')) {
   displayProducts(products);
 }
 
-// Form submission logic
 let submissionCount = localStorage.getItem('submissionCount') || 0;
 const form = document.getElementById('contact-form');
 if (form) {
