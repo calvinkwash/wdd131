@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Malvin Kwashira</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Malvin <span>Kwashira</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="references.html">References</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>Portfolio</h1>
+      <p class="muted">Filter projects and mark favorites — favorites are saved in your browser.</p>
+
+      <div class="filters">
+        <button data-filter="All" class="filter-btn">All</button>
+        <button data-filter="Web" class="filter-btn">Web</button>
+        <button data-filter="Advertising" class="filter-btn">Advertising</button>
+        <button data-filter="Favorites" class="filter-btn">Favorites</button>
+      </div>
+
+      <div id="projects-grid" class="projects-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year3"></span> Malvin Kwashira</div>
+      <div class="muted">Portfolio powered by JavaScript • Lazy-load images</div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
